@@ -2,14 +2,14 @@
   {
     "title": "Appointed as a Scientific Editor ",
     "date_label": "November 2026",
-    "description": "Journal of Hazardous Materials Advances (Elsevier)",
+    "description": "Elsevier, Journal of Hazardous Materials Advances ",
     "order": 1,
     "visible": true
   },
   {
     "title": "Assistant Lecturer",
     "date_label": "January 2027",
-    "description": "at the University of Alberta for teaching CIV E 728 (Water and Wastewater Treatment)",
+    "description": "University of Alberta, CIV E 728 (Water and Wastewater Treatment)",
     "url": "https://apps.ualberta.ca/catalogue/course/civ_e/728",
     "order": 2,
     "visible": false
@@ -17,7 +17,7 @@
   {
     "title": "Received the Best Oral Presentation Award",
     "date_label": "July 2026",
-    "description": "at the International Water Association (IWA) - 5th International Conference on Disinfection & Disinfection Byproducts in Shanghai.",
+    "description": "International Water Association (IWA), 5th International Conference on Disinfection & Disinfection Byproducts in Shanghai.",
     "url": "https://www.iwa-network.org/events/5th-iwa-international-conference-on-disinfection-and-disinfection-by-products",
     "order": 3,
     "visible": true
