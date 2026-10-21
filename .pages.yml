@@ -1,0 +1,316 @@
+# Pages CMS editing for static GitHub Pages — no build process needed.
+media:
+- name: images
+  label: Photos
+  input: assets/uploads
+  output: /assets/uploads
+  categories:
+  - image
+  rename: safe
+- name: documents
+  label: Documents
+  input: assets/documents
+  output: /assets/documents
+  categories:
+  - document
+  rename: safe
+content:
+- name: site
+  label: Homepage and profile
+  type: file
+  path: content/site.json
+  format: json
+  fields:
+  - name: name
+    type: string
+    label: Website name
+  - name: alternate_name
+    type: string
+    label: Also known as
+  - name: earlier_publication_name
+    type: string
+    label: Earlier publication name
+  - name: role
+    type: string
+    label: Current role
+  - name: subtitle
+    type: string
+    label: Professional subtitle
+  - name: intro
+    type: text
+    label: Homepage introduction
+  - name: about_heading
+    type: string
+    label: About Me heading
+  - name: about_paragraph_1
+    type: text
+    label: Background (left column)
+  - name: about_paragraph_2
+    type: text
+    label: Research focus (right column)
+  - name: research_interests
+    type: string
+    label: Research interest bubbles
+    list: true
+  - name: profile_photo
+    type: image
+    label: Profile photo
+    options:
+      media: images
+  - name: cv_pdf
+    type: file
+    label: CV PDF
+    options:
+      media: documents
+  - name: email
+    type: string
+    label: Contact email
+  - name: university
+    type: string
+    label: Affiliation
+  - name: location
+    type: string
+    label: Location
+  - name: scholar_url
+    type: string
+    label: Google Scholar link
+  - name: linkedin_url
+    type: string
+    label: LinkedIn link
+  - name: orcid_url
+    type: string
+    label: ORCID link
+  - name: scopus_url
+    type: string
+    label: Scopus link
+  - name: wos_url
+    type: string
+    label: Web of Science link
+- name: updates
+  label: Recent updates
+  type: file
+  path: content/updates.json
+  format: json
+  list: true
+  fields:
+  - name: title
+    type: string
+    label: Headline
+    required: true
+  - name: date_label
+    type: string
+    label: Date (display text)
+  - name: description
+    type: text
+    label: Details
+  - name: url
+    type: string
+    label: Optional link
+  - &id001
+    name: order
+    type: number
+    label: Display order (lower first)
+  - &id002
+    name: visible
+    type: boolean
+    label: Show on website
+- name: research
+  label: Research projects
+  type: file
+  path: content/research.json
+  format: json
+  list: true
+  fields:
+  - name: title
+    type: string
+    label: Project title
+    required: true
+  - name: category
+    type: select
+    label: Research section
+    options:
+      values:
+      - Current Research
+      - Doctoral Research
+      - Earlier Research
+  - name: tag
+    type: string
+    label: Short category
+  - name: summary
+    type: text
+  - name: details
+    type: text
+  - name: image
+    type: image
+    options:
+      media: images
+  - name: gallery
+    type: image
+    list: true
+    options:
+      media: images
+  - name: url
+    type: string
+    label: Optional project link
+  - *id001
+  - *id002
+- name: publications
+  label: Publications
+  type: file
+  path: content/publications.json
+  format: json
+  list: true
+  fields:
+  - name: title
+    type: string
+    required: true
+  - name: authors
+    type: text
+  - name: year
+    type: string
+  - name: venue
+    type: string
+    label: Journal / destination
+  - name: details
+    type: string
+  - name: category
+    type: select
+    options:
+      values:
+      - name: article
+        label: Research article
+      - name: review
+        label: Review
+      - name: submitted
+        label: Submitted manuscript
+      - name: in_preparation
+        label: In preparation
+  - name: doi
+    type: string
+  - name: url
+    type: string
+    label: Publication link (optional)
+  - *id001
+  - *id002
+- name: presentations
+  label: Talks and presentations
+  type: file
+  path: content/presentations.json
+  format: json
+  list: true
+  fields:
+  - name: title
+    type: string
+    required: true
+  - name: date_label
+    type: string
+    label: Date
+  - name: authors
+    type: text
+  - name: venue
+    type: text
+    label: Conference / place
+  - name: url
+    type: string
+  - *id001
+  - *id002
+- name: awards
+  label: Awards
+  type: file
+  path: content/awards.json
+  format: json
+  list: true
+  fields:
+  - name: title
+    type: string
+    required: true
+  - name: date_label
+    type: string
+    label: Date
+  - name: amount
+    type: string
+  - *id001
+  - *id002
+- name: teaching
+  label: Teaching
+  type: file
+  path: content/teaching.json
+  format: json
+  list: true
+  fields:
+  - name: title
+    type: string
+    required: true
+  - name: date_label
+    type: string
+    label: Date
+  - name: organization
+    type: string
+  - name: description
+    type: text
+  - name: category
+    type: select
+    options:
+      values:
+      - Course Instruction
+      - Teaching Assistant
+      - Teaching Development
+  - *id001
+  - *id002
+- name: education
+  label: Education
+  type: file
+  path: content/education.json
+  format: json
+  list: true
+  fields:
+  - name: title
+    type: string
+    required: true
+  - name: date_label
+    type: string
+    label: Date
+  - name: organization
+    type: string
+  - name: description
+    type: text
+  - *id001
+  - *id002
+- name: experience
+  label: Research experience
+  type: file
+  path: content/experience.json
+  format: json
+  list: true
+  fields:
+  - name: title
+    type: string
+    required: true
+  - name: date_label
+    type: string
+    label: Date
+  - name: organization
+    type: string
+  - name: description
+    type: text
+  - *id001
+  - *id002
+- name: service
+  label: Editorial and service
+  type: file
+  path: content/service.json
+  format: json
+  list: true
+  fields:
+  - name: title
+    type: string
+    required: true
+  - name: date_label
+    type: string
+    label: Date
+  - name: organization
+    type: string
+  - name: description
+    type: text
+  - *id001
+  - *id002
