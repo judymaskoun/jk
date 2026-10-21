@@ -1,13 +1,11 @@
 [
   {
-    "title": "Forestry-waste biochar for oil sands process water",
+    "title": "Biochar-Enhanced Constructed Wetlands for Oil Sands Process Water Treatment",
     "category": "Current Research",
     "tag": "Biochar · Pilot scale",
     "summary": "Producing forestry-waste biochar and assessing its application in pilot-scale columns and constructed wetlands. Funded by the Canada First Research Excellence Fund.",
-    "details": "",
-    "image": "",
-    "gallery": [],
-    "url": "",
+    "details": "Alberta faces challenge of managing significant volumes of oil sands process water (OSPW), necessitating treatment prior to its release into the environment. Currently, OSPW is stored in tailings ponds, which comprises toxic organic fraction, e.g. naphthenic acids (NAs). Biochar, produced from pyrolysis of any biomass, can effectively remove contaminants from OSPW, offering a sustainable solution that supports resource recovery and circular economy. Our recent study has shown that high-surface-area biochar derived from a locally obtained ‘aspen wood’ can effectively treat large volumes of OSPW through adsorption and biodegradation. We propose to expand the application of this biochar by integrating them into a constructed wetlands (CWs). CWs are recognized as effective nature-based solutions for wastewater treatment; however, their efficacy is often limited by harsh climatic conditions and longer treatment period as in Alberta. Incorporating biochar into CWs presents a promising solution, enhancing the scalability and applicability of this technology to treat OSPW at scale to meet the zero-discharge policy. This approach will not only increase the wetland treatment efficiency but also reduce treatment time. This innovative approach will attract interest from key stakeholders including oil industry leaders.",
+    "url": "https://www.futureenergysystems.ca/research/environmental-performance/land-water/biochar-enhanced-constructed-wetlands-for-oil-sands-process-water-treatment",
     "order": 1,
     "visible": true
   },
@@ -16,10 +14,6 @@
     "category": "Current Research",
     "tag": "Photochemical Treatment",
     "summary": "Developing photocatalysts and photocatalytic reactors for water treatment.",
-    "details": "",
-    "image": "",
-    "gallery": [],
-    "url": "",
     "order": 2,
     "visible": true
   },
@@ -28,10 +22,6 @@
     "category": "Current Research",
     "tag": "Process Design",
     "summary": "Immobilizing photocatalysts for integration into flow-through reactor modules.",
-    "details": "",
-    "image": "",
-    "gallery": [],
-    "url": "",
     "order": 3,
     "visible": true
   },
@@ -40,10 +30,6 @@
     "category": "Current Research",
     "tag": "Adsorption",
     "summary": "Designing carbon-based adsorbents for metal adsorption.",
-    "details": "",
-    "image": "",
-    "gallery": [],
-    "url": "",
     "order": 4,
     "visible": true
   },
@@ -52,10 +38,6 @@
     "category": "Doctoral Research",
     "tag": "Materials Engineering",
     "summary": "Synthesized and characterized biochar-based photocatalysts and studied structure–performance relationships in real water matrices.",
-    "details": "",
-    "image": "",
-    "gallery": [],
-    "url": "",
     "order": 5,
     "visible": true
   },
@@ -64,10 +46,6 @@
     "category": "Doctoral Research",
     "tag": "Analytical Evaluation",
     "summary": "Assessed contaminant removal, toxicity, and leaching potential; developed and validated HPLC methods.",
-    "details": "",
-    "image": "",
-    "gallery": [],
-    "url": "",
     "order": 6,
     "visible": true
   },
@@ -76,10 +54,6 @@
     "category": "Earlier Research",
     "tag": "KAUST · 2020–2021",
     "summary": "Evaluated wind and solar energy integration with PEM and alkaline electrolysis for hydrogen production from saline water, including mass/energy balances and techno-economic assessment.",
-    "details": "",
-    "image": "",
-    "gallery": [],
-    "url": "",
     "order": 7,
     "visible": true
   },
@@ -88,10 +62,6 @@
     "category": "Earlier Research",
     "tag": "Bilkent · 2018–2020",
     "summary": "Fabricated microfluidic devices and colloidal semiconductor quantum wells for optical waveguides and solution lasers.",
-    "details": "",
-    "image": "",
-    "gallery": [],
-    "url": "",
     "order": 8,
     "visible": true
   },
@@ -100,10 +70,6 @@
     "category": "Earlier Research",
     "tag": "METU · 2017–2018",
     "summary": "Fabricated cellulose membranes through alkaline hydrolysis of cellulose acetate and evaluated industrial wastewater applications.",
-    "details": "",
-    "image": "",
-    "gallery": [],
-    "url": "",
     "order": 9,
     "visible": true
   }
