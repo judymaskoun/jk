@@ -38,11 +38,18 @@
     "visible": true
   },
   {
-    "title": "Postdoctoral appointment",
+    "title": "Appointment as a Postdoctoral Fellow ",
     "date_label": "December 2025",
     "description": "Postdoctoral Research Fellow (University of Alberta). \nProject: Biochar-Enhanced Constructed Wetlands for Oil Sands Process Water Treatment.  Supported by Canada First Research Excellence Fund through the Future Energy Systems Program ",
     "url": "https://www.futureenergysystems.ca/research/researcher-directory/2146",
     "order": 6,
+    "visible": true
+  },
+  {
+    "title": "PhD Completion ",
+    "date_label": "November 2025",
+    "description": "University of Alberta",
+    "url": "https://www.ualberta.ca/en/media-library/convocation/2025/2025-fall-convocation-long-form-program.pdf",
     "visible": true
   }
 ]
