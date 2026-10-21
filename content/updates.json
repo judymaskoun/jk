@@ -7,38 +7,41 @@
     "visible": true
   },
   {
-    "title": "Assistant Lecturer appointment",
+    "title": "Assistant Lecturer",
     "date_label": "Starting January 2027",
-    "description": "Appointed as an Assistant Lecturer in the Faculty of Engineering at the University of Alberta, with the role beginning in January 2027.",
+    "description": "Appointed as an Assistant Lecturer in the Faculty of Engineering at the University of Alberta for teaching CIV E 728",
+    "url": "https://apps.ualberta.ca/catalogue/course/civ_e/728",
     "order": 2,
     "visible": true
   },
   {
     "title": "Best Oral Presentation Award",
     "date_label": "July 2026",
-    "description": "Received the Best Oral Presentation Award at the 5th International Conference on Disinfection & Disinfection Byproducts in Shanghai.",
+    "description": "Received the Best Oral Presentation Award at the International Water Association (IWA) - 5th International Conference on Disinfection & Disinfection Byproducts in Shanghai.",
+    "url": "https://www.iwa-network.org/events/5th-iwa-international-conference-on-disinfection-and-disinfection-by-products",
     "order": 3,
     "visible": true
   },
   {
     "title": "Conference presentation",
     "date_label": "July 2026",
-    "description": "Presented work on tuning softwood biochar pyrolysis temperature to enhance solar-driven Bi2WO6 photocatalysis for river water treatment.",
+    "description": "Presented work titled \"Tuning Softwood Biochar Pyrolysis Temperature to Enhance Solar-driven Bi2WO6 Photocatalysis for River Water Treatment.\"",
     "order": 4,
     "visible": true
   },
   {
     "title": "Journal of Hazardous Materials publication",
     "date_label": "2026",
-    "description": "Published a paper on wheat-straw-biochar-supported Bi2WO6 for stormwater contaminants.",
+    "description": "\"Tuning pyrolysis temperature of wheat straw biochar supports for enhanced Bi2WO6 photocatalytic degradation of stormwater contaminants in real water matrices\"",
     "url": "https://doi.org/10.1016/j.jhazmat.2026.142241",
     "order": 5,
     "visible": true
   },
   {
     "title": "Postdoctoral appointment",
-    "date_label": "Nov 2025",
-    "description": "Started as a Postdoctoral Research Fellow in water and wastewater treatment at the University of Alberta.",
+    "date_label": "December 2025",
+    "description": "Postdoctoral Research Fellow (University of Alberta). \nProject: Biochar-Enhanced Constructed Wetlands for Oil Sands Process Water Treatment.  Supported by Canada First Research Excellence Fund through the Future Energy Systems Program ",
+    "url": "https://www.futureenergysystems.ca/research/researcher-directory/2146",
     "order": 6,
     "visible": true
   }
