@@ -8,11 +8,11 @@
   },
   {
     "title": "Assistant Lecturer",
-    "date_label": "Starting January 2027",
+    "date_label": "January 2027",
     "description": "at the University of Alberta for teaching CIV E 728 (Water and Wastewater Treatment)",
     "url": "https://apps.ualberta.ca/catalogue/course/civ_e/728",
     "order": 2,
-    "visible": true
+    "visible": false
   },
   {
     "title": "Received the Best Oral Presentation Award",
