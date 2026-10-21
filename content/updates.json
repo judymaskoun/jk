@@ -23,14 +23,14 @@
     "visible": true
   },
   {
-    "title": "Conference presentation",
+    "title": "Conference Presentation",
     "date_label": "July 2026",
-    "description": "Presented work titled \"Tuning Softwood Biochar Pyrolysis Temperature to Enhance Solar-driven Bi2WO6 Photocatalysis for River Water Treatment.\"",
+    "description": "\"Tuning Softwood Biochar Pyrolysis Temperature to Enhance Solar-driven Bi2WO6 Photocatalysis for River Water Treatment.\" IWA 5th International Conference on Disinfection & Disinfection Byproducts in Shanghai.",
     "order": 4,
     "visible": true
   },
   {
-    "title": "Journal of Hazardous Materials publication",
+    "title": "Publication in Journal of Hazardous Materials",
     "date_label": "2026",
     "description": "\"Tuning pyrolysis temperature of wheat straw biochar supports for enhanced Bi2WO6 photocatalytic degradation of stormwater contaminants in real water matrices\"",
     "url": "https://doi.org/10.1016/j.jhazmat.2026.142241",
