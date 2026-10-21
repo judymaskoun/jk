@@ -36,6 +36,7 @@
     "title": "Engineered biochar supported bismuth tungstate: Unveiling the influence of precursor concentrations and biochar dosage for the solar photocatalysis of 1,3-diphenylguanidine in secondary municipal effluent",
     "category": "Doctoral Research",
     "tag": "Materials Engineering · Environmental Engineering · Photocatalysis",
+    "summary": "Chemical Engineering Journal",
     "image": "/assets/uploads/engineered.jpg",
     "url": "https://www.sciencedirect.com/science/article/abs/pii/S1385894724006272",
     "order": 5,
@@ -45,32 +46,35 @@
     "title": "Tuning pyrolysis temperature of wheat straw biochar supports for enhanced Bi2WO6 photocatalytic degradation of stormwater contaminants in real water matrices",
     "category": "Doctoral Research",
     "tag": "Materials Engineering · Environmental Engineering · Photocatalysis",
+    "summary": "Journal of Hazardous Materials",
     "image": "/assets/uploads/wa.jpg",
     "url": "https://www.sciencedirect.com/science/article/pii/S0304389426012197",
     "order": 6,
     "visible": true
   },
   {
-    "title": "Green hydrogen production",
-    "category": "Earlier Research",
-    "tag": "KAUST · 2020–2021",
-    "summary": "Evaluated wind and solar energy integration with PEM and alkaline electrolysis for hydrogen production from saline water, including mass/energy balances and techno-economic assessment.",
+    "title": "Softwood biochar-supported Bi2WO6 for photocatalytic degradation of organic contaminant mixture in river water: Role of pyrolysis temperature and surface functionality",
+    "category": "Doctoral Research",
+    "tag": "Materials Engineering · Environmental Engineering · Photocatalysis",
+    "summary": "Journal of Colloids and Interface Science",
+    "image": "/assets/uploads/sw.jpg",
+    "url": "https://www.sciencedirect.com/science/article/pii/S002197972502524X",
     "order": 7,
     "visible": true
   },
   {
-    "title": "Optical microfluidics",
+    "title": "Optical Microfluidic Waveguides and Solution Lasers of Colloidal Semiconductor Quantum Wells",
     "category": "Earlier Research",
-    "tag": "Bilkent · 2018–2020",
-    "summary": "Fabricated microfluidic devices and colloidal semiconductor quantum wells for optical waveguides and solution lasers.",
+    "tag": "Materials Engineering · Microfluidics",
+    "summary": "Advanced Materials",
+    "image": "/assets/uploads/adc.png",
     "order": 8,
     "visible": true
   },
   {
-    "title": "Organic solvent nanofiltration",
+    "title": "Fabrication of Cellulose Membranes from Cellulose Acetate for Organic Solvent Nanofiltration",
     "category": "Earlier Research",
     "tag": "METU · 2017–2018",
-    "summary": "Fabricated cellulose membranes through alkaline hydrolysis of cellulose acetate and evaluated industrial wastewater applications.",
     "order": 9,
     "visible": true
   }
