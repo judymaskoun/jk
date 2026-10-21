@@ -4,10 +4,7 @@
     "authors": "Aoudi, B., Kahkeci, J., and Gamal El-Din, M.",
     "year": "2026",
     "venue": "Current Opinion in Chemical Engineering",
-    "details": "",
     "category": "submitted",
-    "doi": "",
-    "url": "",
     "order": 1,
     "visible": true
   },
@@ -15,13 +12,9 @@
     "title": "Treatment of High Organic Laden Process Wastewater via Adsorption on Oily Sludge-Derived Chars Coupled with Electro-oxidation.",
     "authors": "Gamal El-Din, M., Usman, M., Ganiyu, S., Kahkeci, J., Saeed, S., and Bekele, A.",
     "year": "2026",
-    "venue": "",
-    "details": "",
     "category": "in_preparation",
-    "doi": "",
-    "url": "",
     "order": 1,
-    "visible": true
+    "visible": false
   },
   {
     "title": "Tuning Pyrolysis Temperature of Wheat Straw Biochar Supports for Enhanced Bi2WO6 Photocatalytic Degradation of Stormwater Contaminants in Real Water Matrices",
@@ -31,7 +24,6 @@
     "details": "512, 142241",
     "category": "article",
     "doi": "10.1016/j.jhazmat.2026.142241",
-    "url": "",
     "order": 1,
     "visible": true
   },
@@ -39,13 +31,9 @@
     "title": "Comparative Performance and Toxicity Assessment of g-C3N4, Bi2WO6, and ZnO Photocatalysts for Stormwater Treatment.",
     "authors": "Kahkeci, J., Aoudi, B., Li, Y., Stafford, J., and Gamal El-Din, M.",
     "year": "2026",
-    "venue": "",
-    "details": "",
     "category": "in_preparation",
-    "doi": "",
-    "url": "",
     "order": 2,
-    "visible": true
+    "visible": false
   },
   {
     "title": "Softwood Biochar-Supported Bi2WO6 for Photocatalytic Degradation of Organic Contaminants in River Water: Role of Pyrolysis Temperature and Surface Functionality",
@@ -55,7 +43,6 @@
     "details": "139132",
     "category": "article",
     "doi": "10.1016/j.jcis.2025.139132",
-    "url": "",
     "order": 2,
     "visible": true
   },
@@ -64,10 +51,7 @@
     "authors": "Mokarizadeh, H., Aoudi, B., Kahkeci, J., Ganiyu, S., and Gamal El-Din, M.",
     "year": "2026",
     "venue": "Environmental Science and Pollution Research",
-    "details": "",
     "category": "submitted",
-    "doi": "",
-    "url": "",
     "order": 2,
     "visible": true
   },
@@ -79,7 +63,6 @@
     "details": "364, 132523",
     "category": "article",
     "doi": "10.1016/j.seppur.2025.132523",
-    "url": "",
     "order": 3,
     "visible": true
   },
@@ -87,13 +70,9 @@
     "title": "Influence of Torrefied and Pyrolyzed Biomass Amendments on Nutrient Dynamics and Soil Fertility in Clayey and Sandy Soils.",
     "authors": "Fan, Y., Kahkeci, J., Usman, M., Feng, Q., Li, Y., Bekele, A., Arslan, M., Jaffe, B., Jessup, R. W., Bremer, E., and Gamal El-Din, M.",
     "year": "2026",
-    "venue": "",
-    "details": "",
     "category": "in_preparation",
-    "doi": "",
-    "url": "",
     "order": 3,
-    "visible": true
+    "visible": false
   },
   {
     "title": "Enhanced g-C3N4 for sustainable solar degradation of 1,3-diphenylguanidine (DPG) in wastewater: Investigating the effects of precursor, temperature, and potassium doping",
@@ -103,21 +82,15 @@
     "details": "487, 150665",
     "category": "article",
     "doi": "10.1016/j.cej.2024.150665",
-    "url": "",
     "order": 4,
     "visible": true
   },
   {
     "title": "Evaluating Forestry-Residue Biochars for Oil Sands Process-Affected Water Treatment in Constructed Wetlands: The Role of Adsorption and Microbial Degradation.",
     "authors": "Fan, Y., Kahkeci, J., and Gamal El-Din, M.",
-    "year": "",
-    "venue": "",
-    "details": "",
     "category": "in_preparation",
-    "doi": "",
-    "url": "",
     "order": 4,
-    "visible": true
+    "visible": false
   },
   {
     "title": "Engineered biochar supported bismuth tungstate: Unveiling the influence of precursor concentrations and biochar dosage for the solar photocatalysis of 1,3-diphenylguanidine in secondary municipal effluent",
@@ -127,7 +100,6 @@
     "details": "483, 149142",
     "category": "article",
     "doi": "10.1016/j.cej.2024.149142",
-    "url": "",
     "order": 5,
     "visible": true
   },
@@ -135,25 +107,17 @@
     "title": "Solar Activation of Peroxymonosulfate for Micropollutant Removal in Stormwater: Treatment Performance and Toxicity Evaluation.",
     "authors": "Al Mamun, M. R., Kahkeci, J., Bunda-Fajunio, M. G., Gamal El-Din, Y., Hussain, N. A. S., Stafford, J. L., and Gamal El-Din, M.",
     "year": "2026",
-    "venue": "",
-    "details": "",
     "category": "in_preparation",
-    "doi": "",
-    "url": "",
     "order": 5,
-    "visible": true
+    "visible": false
   },
   {
     "title": "Biochar-supported FeC2O4 Photocatalysts for the Treatment of Stormwater Pollutants: Mechanistic Insights, and Toxicity Evaluation.",
     "authors": "Al Mamun, M. R., Kahkeci, J., Bunda-Fajunio, M. G., Gamal El-Din, Y., Hussain, N. A. S., Stafford, J. L., and Gamal El-Din, M.",
     "year": "2026",
-    "venue": "",
-    "details": "",
     "category": "in_preparation",
-    "doi": "",
-    "url": "",
     "order": 6,
-    "visible": true
+    "visible": false
   },
   {
     "title": "Biochar-supported photocatalysts: Performance optimization and applications in emerging contaminant removal from wastewater",
@@ -163,7 +127,6 @@
     "details": "476, 146530",
     "category": "review",
     "doi": "10.1016/j.cej.2023.146530",
-    "url": "",
     "order": 6,
     "visible": true
   },
@@ -175,7 +138,6 @@
     "details": "33(10), 2007131",
     "category": "article",
     "doi": "10.1002/adma.202007131",
-    "url": "",
     "order": 7,
     "visible": true
   }
