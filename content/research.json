@@ -11,24 +11,24 @@
   {
     "title": "Solar- and UV-driven photocatalysis",
     "category": "Current Research",
-    "tag": "Photochemical Treatment",
-    "summary": "Developing photocatalysts and photocatalytic reactors for water treatment.",
+    "tag": "Photocatalysis",
+    "summary": "Development and optimization of solar and UV-driven photocatalyst materials for water and wastewater treatment.",
     "order": 2,
     "visible": true
   },
   {
-    "title": "Immobilized photocatalytic systems",
+    "title": "Photocatalyst Immobilization ",
     "category": "Current Research",
     "tag": "Process Design",
-    "summary": "Immobilizing photocatalysts for integration into flow-through reactor modules.",
+    "summary": "Immobilizing photocatalysts on natural support materials to overcome separation challenges of conventional powdered materials.",
     "order": 3,
     "visible": true
   },
   {
-    "title": "Biochar & hydrochar for metals",
+    "title": "Photocatalytic Reactor Design",
     "category": "Current Research",
-    "tag": "Adsorption",
-    "summary": "Designing carbon-based adsorbents for metal adsorption.",
+    "tag": "Photocatalysis",
+    "summary": "Design of a flow-through UV reactor for the photocatalytic treatment of wastewater.",
     "order": 4,
     "visible": true
   },
