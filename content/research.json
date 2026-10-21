@@ -1,0 +1,110 @@
+[
+  {
+    "title": "Forestry-waste biochar for oil sands process water",
+    "category": "Current Research",
+    "tag": "Biochar · Pilot scale",
+    "summary": "Producing forestry-waste biochar and assessing its application in pilot-scale columns and constructed wetlands. Funded by the Canada First Research Excellence Fund.",
+    "details": "",
+    "image": "",
+    "gallery": [],
+    "url": "",
+    "order": 1,
+    "visible": true
+  },
+  {
+    "title": "Solar- and UV-driven photocatalysis",
+    "category": "Current Research",
+    "tag": "Photochemical Treatment",
+    "summary": "Developing photocatalysts and photocatalytic reactors for water treatment.",
+    "details": "",
+    "image": "",
+    "gallery": [],
+    "url": "",
+    "order": 2,
+    "visible": true
+  },
+  {
+    "title": "Immobilized photocatalytic systems",
+    "category": "Current Research",
+    "tag": "Process Design",
+    "summary": "Immobilizing photocatalysts for integration into flow-through reactor modules.",
+    "details": "",
+    "image": "",
+    "gallery": [],
+    "url": "",
+    "order": 3,
+    "visible": true
+  },
+  {
+    "title": "Biochar & hydrochar for metals",
+    "category": "Current Research",
+    "tag": "Adsorption",
+    "summary": "Designing carbon-based adsorbents for metal adsorption.",
+    "details": "",
+    "image": "",
+    "gallery": [],
+    "url": "",
+    "order": 4,
+    "visible": true
+  },
+  {
+    "title": "Biochar-supported Bi2WO6",
+    "category": "Doctoral Research",
+    "tag": "Materials Engineering",
+    "summary": "Synthesized and characterized biochar-based photocatalysts and studied structure–performance relationships in real water matrices.",
+    "details": "",
+    "image": "",
+    "gallery": [],
+    "url": "",
+    "order": 5,
+    "visible": true
+  },
+  {
+    "title": "Performance, toxicity & leaching",
+    "category": "Doctoral Research",
+    "tag": "Analytical Evaluation",
+    "summary": "Assessed contaminant removal, toxicity, and leaching potential; developed and validated HPLC methods.",
+    "details": "",
+    "image": "",
+    "gallery": [],
+    "url": "",
+    "order": 6,
+    "visible": true
+  },
+  {
+    "title": "Green hydrogen production",
+    "category": "Earlier Research",
+    "tag": "KAUST · 2020–2021",
+    "summary": "Evaluated wind and solar energy integration with PEM and alkaline electrolysis for hydrogen production from saline water, including mass/energy balances and techno-economic assessment.",
+    "details": "",
+    "image": "",
+    "gallery": [],
+    "url": "",
+    "order": 7,
+    "visible": true
+  },
+  {
+    "title": "Optical microfluidics",
+    "category": "Earlier Research",
+    "tag": "Bilkent · 2018–2020",
+    "summary": "Fabricated microfluidic devices and colloidal semiconductor quantum wells for optical waveguides and solution lasers.",
+    "details": "",
+    "image": "",
+    "gallery": [],
+    "url": "",
+    "order": 8,
+    "visible": true
+  },
+  {
+    "title": "Organic solvent nanofiltration",
+    "category": "Earlier Research",
+    "tag": "METU · 2017–2018",
+    "summary": "Fabricated cellulose membranes through alkaline hydrolysis of cellulose acetate and evaluated industrial wastewater applications.",
+    "details": "",
+    "image": "",
+    "gallery": [],
+    "url": "",
+    "order": 9,
+    "visible": true
+  }
+]

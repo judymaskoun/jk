@@ -1,0 +1,101 @@
+[
+  {
+    "title": "Assistant Lecturer — Faculty of Engineering",
+    "date_label": "Starting Jan 2027",
+    "organization": "University of Alberta",
+    "description": "Upcoming appointment beginning January 2027.",
+    "category": "Course Instruction",
+    "order": 0,
+    "visible": true
+  },
+  {
+    "title": "Course Instructor — CIV E 429, Environmental Engineering Design",
+    "date_label": "Jan–Apr 2025",
+    "organization": "University of Alberta",
+    "description": "Senior undergraduate course in drinking water and wastewater treatment facility design for indirect potable reuse; included field trips, design projects, technical reports, and presentations.",
+    "category": "Course Instruction",
+    "order": 1,
+    "visible": true
+  },
+  {
+    "title": "Biological Processes (ENV E 324)",
+    "date_label": "Fall 2024",
+    "organization": "University of Alberta",
+    "description": "Graduate teaching assistant.",
+    "category": "Teaching Assistant",
+    "order": 2,
+    "visible": true
+  },
+  {
+    "title": "Environmental Chemistry (ENV E 220)",
+    "date_label": "Fall 2024",
+    "organization": "University of Alberta",
+    "description": "Graduate teaching assistant.",
+    "category": "Teaching Assistant",
+    "order": 3,
+    "visible": true
+  },
+  {
+    "title": "Environmental Water Quality Management (CIV E 525)",
+    "date_label": "Fall 2024",
+    "organization": "University of Alberta",
+    "description": "Graduate teaching assistant.",
+    "category": "Teaching Assistant",
+    "order": 4,
+    "visible": true
+  },
+  {
+    "title": "Principles of Environmental Modelling and Risk (CIV E 321)",
+    "date_label": "Winter 2023 & 2024",
+    "organization": "University of Alberta",
+    "description": "Graduate teaching assistant.",
+    "category": "Teaching Assistant",
+    "order": 5,
+    "visible": true
+  },
+  {
+    "title": "Chemical and Physical Processes (ENV E 325)",
+    "date_label": "Winter 2023 & 2024",
+    "organization": "University of Alberta",
+    "description": "Graduate teaching assistant.",
+    "category": "Teaching Assistant",
+    "order": 6,
+    "visible": true
+  },
+  {
+    "title": "Fluid Mechanics (CIV E 330)",
+    "date_label": "Fall 2023",
+    "organization": "University of Alberta",
+    "description": "Graduate teaching assistant.",
+    "category": "Teaching Assistant",
+    "order": 7,
+    "visible": true
+  },
+  {
+    "title": "Municipal Systems (CIV E 421)",
+    "date_label": "Fall 2023",
+    "organization": "University of Alberta",
+    "description": "Graduate teaching assistant.",
+    "category": "Teaching Assistant",
+    "order": 8,
+    "visible": true
+  },
+  {
+    "title": "Graduate Teaching and Learning Program — Level 3",
+    "date_label": "Apr 2026",
+    "organization": "University of Alberta",
+    "description": "Pedagogy and Course Design.",
+    "category": "Teaching Development",
+    "order": 9,
+    "visible": true
+  },
+  {
+    "title": "Graduate Teaching and Learning Program — Level 1",
+    "date_label": "Jan 2026",
+    "organization": "University of Alberta",
+    "description": "Foundations.",
+    "category": "Teaching Development",
+    "order": 10,
+    "visible": true
+  }
+]

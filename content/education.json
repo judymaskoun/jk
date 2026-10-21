@@ -1,0 +1,26 @@
+[
+  {
+    "title": "PhD in Environmental Engineering",
+    "date_label": "Sep 2021–Sep 2025",
+    "organization": "University of Alberta · Edmonton, AB · GPA 4.00/4.00",
+    "description": "Thesis: Biochar-Supported Bismuth Tungstate Photocatalysts for the Removal of Emerging Contaminants from Wastewater.",
+    "order": 1,
+    "visible": true
+  },
+  {
+    "title": "MSc in Materials Science and Nanotechnology",
+    "date_label": "Sep 2018–Aug 2020",
+    "organization": "Bilkent University · Ankara, Turkey · GPA 3.79/4.00",
+    "description": "Thesis: Microfluidic waveguides and solution lasers of colloidal semiconductor quantum wells.",
+    "order": 2,
+    "visible": true
+  },
+  {
+    "title": "BSc in Chemical Engineering",
+    "date_label": "Sep 2014–Jun 2018",
+    "organization": "Middle East Technical University · Ankara, Turkey · GPA 3.72/4.00 · Graduated first in rank",
+    "description": "Research: Organic solvent nanofiltration membrane synthesis and application in wastewater treatment.",
+    "order": 3,
+    "visible": true
+  }
+]

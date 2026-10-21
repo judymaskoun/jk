@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Scientific Editor — appointment pending",
+    "date_label": "Expected November 2027",
+    "description": "Anticipated editorial appointment with Journal of Hazardous Materials Advances (Elsevier), subject to contract finalization.",
+    "url": "",
+    "order": 1,
+    "visible": true
+  },
+  {
+    "title": "Assistant Lecturer appointment",
+    "date_label": "Starting January 2027",
+    "description": "Appointed as an Assistant Lecturer in the Faculty of Engineering at the University of Alberta, with the role beginning in January 2027.",
+    "url": "",
+    "order": 2,
+    "visible": true
+  },
+  {
+    "title": "Best Oral Presentation Award",
+    "date_label": "July 2026",
+    "description": "Received the Best Oral Presentation Award at the 5th International Conference on Disinfection & Disinfection Byproducts in Shanghai.",
+    "url": "",
+    "order": 3,
+    "visible": true
+  },
+  {
+    "title": "Conference presentation",
+    "date_label": "July 2026",
+    "description": "Presented work on tuning softwood biochar pyrolysis temperature to enhance solar-driven Bi2WO6 photocatalysis for river water treatment.",
+    "url": "",
+    "order": 4,
+    "visible": true
+  },
+  {
+    "title": "Journal of Hazardous Materials publication",
+    "date_label": "2026",
+    "description": "Published a paper on wheat-straw-biochar-supported Bi2WO6 for stormwater contaminants.",
+    "url": "https://doi.org/10.1016/j.jhazmat.2026.142241",
+    "order": 5,
+    "visible": true
+  },
+  {
+    "title": "Postdoctoral appointment",
+    "date_label": "Nov 2025",
+    "description": "Started as a Postdoctoral Research Fellow in water and wastewater treatment at the University of Alberta.",
+    "url": "",
+    "order": 6,
+    "visible": true
+  }
+]
