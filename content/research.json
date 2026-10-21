@@ -17,26 +17,28 @@
     "visible": true
   },
   {
-    "title": "Photocatalyst Immobilization ",
+    "title": "Photocatalyst Immobilization and Photocatalytic Reactor Design",
     "category": "Current Research",
-    "tag": "Process Design",
-    "summary": "Immobilizing photocatalysts on natural support materials to overcome separation challenges of conventional powdered materials.",
+    "tag": "Process Design · Reactor Design",
+    "summary": "Immobilizing photocatalysts on natural support materials to overcome separation challenges of conventional powdered materials.\nDesign of a flow-through UV reactor for the photocatalytic treatment of wastewater.",
     "order": 3,
     "visible": true
   },
   {
-    "title": "Photocatalytic Reactor Design",
+    "title": "Biochar Adsorbents",
     "category": "Current Research",
-    "tag": "Photocatalysis",
-    "summary": "Design of a flow-through UV reactor for the photocatalytic treatment of wastewater.",
+    "tag": "Adsorption",
+    "summary": "Synthesis and optimization of biochar derived from forestry residues for oil sands process water treatment.",
     "order": 4,
     "visible": true
   },
   {
-    "title": "Biochar-supported Bi2WO6",
+    "title": "Biochar-supported Bismuth Tungstate",
     "category": "Doctoral Research",
-    "tag": "Materials Engineering",
-    "summary": "Synthesized and characterized biochar-based photocatalysts and studied structure–performance relationships in real water matrices.",
+    "tag": "Materials Engineering · Environmental Engineering",
+    "summary": "\"Engineered biochar supported bismuth tungstate: Unveiling the influence of precursor concentrations and biochar dosage for the solar photocatalysis of 1,3-diphenylguanidine in secondary municipal effluent\"",
+    "image": "/assets/uploads/engineered.jpg",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S1385894724006272",
     "order": 5,
     "visible": true
   },
