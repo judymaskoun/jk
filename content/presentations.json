@@ -4,7 +4,12 @@
     "date_label": "Jul 2026",
     "authors": "Kahkeci, J., Aoudi, B., Sánchez-Montes, I., and Gamal El-Din, M.",
     "venue": "5th International Water Association (IWA) International Conference on Disinfection and Disinfection By-Products · Shanghai, China",
-    "url": "",
+    "image": "/assets/uploads/33.png",
+    "gallery": [
+      "/assets/uploads/22.png",
+      "/assets/uploads/11.png",
+      "/assets/uploads/img3621.png"
+    ],
     "order": 1,
     "visible": true
   },
@@ -13,7 +18,6 @@
     "date_label": "Jul 2026",
     "authors": "Gamal El-Din, M., Usman, M., Feng, Q., Bekele, A., Kahkeci, J., Li, Y., Fan, Y., Arslan, M., Jaffe, B., Jessup, R. W., and Bremer, E.",
     "venue": "1st International Conference on Land Degradation and Restoration · Valencia, Spain",
-    "url": "",
     "order": 2,
     "visible": true
   },
@@ -22,7 +26,6 @@
     "date_label": "Aug 2024",
     "authors": "Aoudi, B., Kahkeci, J., Boluk, Y., and Gamal El-Din, M.",
     "venue": "IWA World Water Congress & Exhibition 2024 · Canada",
-    "url": "",
     "order": 3,
     "visible": true
   },
@@ -31,7 +34,6 @@
     "date_label": "Jun 2024",
     "authors": "Aoudi, B., Kahkeci, J., Boluk, Y., and Gamal El-Din, M.",
     "venue": "Canadian Society for Civil Engineering Annual Conference · Niagara Falls, ON",
-    "url": "",
     "order": 4,
     "visible": true
   },
@@ -40,7 +42,6 @@
     "date_label": "Jun 2024",
     "authors": "Kahkeci, J., Aoudi, B., Sánchez-Montes, I., and Gamal El-Din, M.",
     "venue": "Canadian Society for Civil Engineering Annual Conference · Niagara Falls, ON",
-    "url": "",
     "order": 5,
     "visible": true
   },
@@ -49,7 +50,6 @@
     "date_label": "Jun 2021",
     "authors": "Kahkeci, J. and Sarathy, S. M.",
     "venue": "King Abdullah University of Science and Technology Research Conference: Near-Zero Carbon Combustion Technology · Thuwal, Saudi Arabia",
-    "url": "",
     "order": 6,
     "visible": true
   },
@@ -58,7 +58,6 @@
     "date_label": "May 2018",
     "authors": "Kahkeci, J. and Culfaz-Emecen, P. Z.",
     "venue": "Gazi University Chemical Engineering Conference · Ankara, Turkey",
-    "url": "",
     "order": 7,
     "visible": true
   }
