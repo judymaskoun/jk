@@ -1,0 +1,11 @@
+/* Home statistics: hiding the group collapses it completely, without reserving a row. */
+body[data-page="home"] .stats-academic[hidden]{display:none!important}
+body[data-page="home"].home-stats-hidden .hero-academic{padding-bottom:32px}
+body[data-page="home"].home-stats-hidden .about-academic{padding-top:58px}
+/* The CMS now controls the Research interests separately from Homepage interests. */
+body[data-page="research"] .research-hero-interests[hidden]{display:none!important}
+body[data-page="research"].research-interests-hidden .page-hero{padding-bottom:30px}
+@media(max-width:780px){
+ body[data-page="home"].home-stats-hidden .hero-academic{padding-bottom:22px}
+ body[data-page="home"].home-stats-hidden .about-academic{padding-top:42px}
+}

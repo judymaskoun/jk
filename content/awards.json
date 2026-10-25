@@ -1,0 +1,86 @@
+[
+  {
+    "title": "Best Oral Presentation Award, 5th International Conference on Disinfection & Disinfection Byproducts",
+    "date_label": "Jul 2026",
+    "amount": "",
+    "order": 1,
+    "visible": true
+  },
+  {
+    "title": "Graduate Student Association Academic Travel Grant",
+    "date_label": "Jun 2026",
+    "amount": "$500",
+    "order": 2,
+    "visible": true
+  },
+  {
+    "title": "Future Energy Systems: Graduate Student and Postdoctoral Scholar Opportunity Award",
+    "date_label": "May 2026",
+    "amount": "$2,500",
+    "order": 3,
+    "visible": true
+  },
+  {
+    "title": "Postdoctoral Fellows Association Travel Award",
+    "date_label": "May 2026",
+    "amount": "$500",
+    "order": 4,
+    "visible": true
+  },
+  {
+    "title": "Highly Qualified Professional, Canada First Research Excellence Fund",
+    "date_label": "Nov 2025",
+    "amount": "$60,000",
+    "order": 5,
+    "visible": true
+  },
+  {
+    "title": "Alberta Innovates Graduate Student Scholarship",
+    "date_label": "Sep 2024",
+    "amount": "$30,000",
+    "order": 6,
+    "visible": true
+  },
+  {
+    "title": "Alberta Graduate Excellence Scholarship",
+    "date_label": "Sep 2024",
+    "amount": "$12,000",
+    "order": 7,
+    "visible": true
+  },
+  {
+    "title": "Gordon R Finch Memorial Graduate Scholarship in Environmental Engineering",
+    "date_label": "Sep 2024",
+    "amount": "$2,700",
+    "order": 8,
+    "visible": true
+  },
+  {
+    "title": "Jacob H Masliyah Graduate Award in Oil Sands Engineering",
+    "date_label": "Sep 2024",
+    "amount": "$2,000",
+    "order": 9,
+    "visible": true
+  },
+  {
+    "title": "University of Alberta Graduate Recruitment Scholarship",
+    "date_label": "Sep 2021",
+    "amount": "",
+    "order": 10,
+    "visible": true
+  },
+  {
+    "title": "Bilkent UNAM Graduate Scholarship",
+    "date_label": "Sep 2018",
+    "amount": "",
+    "order": 11,
+    "visible": true
+  },
+  {
+    "title": "Middle East Technical University: First in rank certificate",
+    "date_label": "Jun 2018",
+    "amount": "",
+    "order": 12,
+    "visible": true
+  }
+]

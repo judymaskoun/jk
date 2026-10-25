@@ -1,0 +1,595 @@
+# Pages CMS editing for static GitHub Pages — no build process needed.
+media:
+- name: images
+  label: Photos
+  input: assets/uploads
+  output: /assets/uploads
+  categories:
+  - image
+  rename: safe
+- name: documents
+  label: Documents
+  input: assets/documents
+  output: /assets/documents
+  categories:
+  - document
+  rename: safe
+content:
+- name: site
+  label: Homepage and profile
+  type: file
+  path: content/site.json
+  format: json
+  fields:
+  - name: name
+    type: string
+    label: Website name
+  - name: alternate_name
+    type: string
+    label: Also known as
+  - name: earlier_publication_name
+    type: string
+    label: Earlier publication name
+  - name: role
+    type: string
+    label: Current role
+  - name: subtitle
+    type: string
+    label: Professional subtitle
+  - name: intro
+    type: text
+    label: Homepage introduction
+  - name: about_heading
+    type: string
+    label: About Me heading
+  - name: about_paragraph_1
+    type: text
+    label: Background (left column)
+  - name: about_paragraph_2
+    type: text
+    label: Research focus (right column)
+  - name: research_interests
+    type: string
+    label: Research interest bubbles
+    list: true
+  - name: profile_photo
+    type: image
+    label: Profile photo
+    options:
+      media: images
+  - name: university
+    type: string
+    label: Affiliation
+  - name: location
+    type: string
+    label: Location
+  - name: scholar_url
+    type: string
+    label: Google Scholar link
+  - name: linkedin_url
+    type: string
+    label: LinkedIn link
+  - name: orcid_url
+    type: string
+    label: ORCID link
+  - name: scopus_url
+    type: string
+    label: Scopus link
+  - name: wos_url
+    type: string
+    label: Web of Science link
+- name: contact
+  label: Contact — cards and headings
+  type: file
+  path: content/contact.json
+  format: json
+  operations:
+    create: false
+    delete: false
+  fields:
+  - name: page_title
+    type: string
+    label: Page title (currently Contact)
+  - name: section_heading
+    type: string
+    label: Small green heading above the cards
+  - name: address_label
+    type: string
+    label: Address card — green label
+  - name: address_heading
+    type: string
+    label: Address card — bold heading
+  - name: address_text
+    type: text
+    label: Address card — address and details (multiple lines allowed)
+  - name: email_label
+    type: string
+    label: Email card — green label
+  - name: email_heading
+    type: string
+    label: Email card — bold heading
+  - name: email_address
+    type: string
+    label: Email card — email recipient (link destination)
+  - name: email_link_text
+    type: string
+    label: Email card — visible link text
+    description: Usually the same as the email address but can be changed.
+  - name: email_notes
+    type: text
+    label: Email card — optional additional text
+- name: updates
+  label: Recent updates
+  type: file
+  path: content/updates.json
+  format: json
+  list: true
+  fields:
+  - name: title
+    type: string
+    label: Headline
+    required: true
+  - name: date_label
+    type: string
+    label: Date (display text)
+  - name: description
+    type: text
+    label: Details
+  - name: image
+    type: image
+    label: Optional photo
+    options:
+      media: images
+  - name: image_alt
+    type: string
+    label: Photo description (accessibility)
+  - name: url
+    type: string
+    label: Optional link
+  - &id001
+    name: order
+    type: number
+    label: Display order (lower first)
+  - &id002
+    name: visible
+    type: boolean
+    label: Show on website
+- name: research_headings
+  label: Research — section titles
+  type: file
+  path: content/research_headings.json
+  format: json
+  operations:
+    create: false
+    delete: false
+  fields:
+  - name: current_heading
+    type: string
+    label: Current projects section heading
+    required: true
+  - name: past_heading
+    type: string
+    label: Past projects section heading
+    required: true
+- name: research
+  label: Research projects
+  type: file
+  path: content/research.json
+  format: json
+  list: true
+  fields:
+  - name: title
+    type: string
+    label: Project title
+    required: true
+  - name: category
+    type: select
+    label: Research section
+    options:
+      values:
+      - name: Current Projects
+        label: Current Projects
+      - name: Past Projects
+        label: Past Projects
+      - name: Current Research
+        label: Current Research (older records)
+      - name: Doctoral Research
+        label: Doctoral Research (older records)
+      - name: Earlier Research
+        label: Earlier Research (older records)
+  - name: tag
+    type: string
+    label: Short category
+  - name: summary
+    type: text
+  - name: details
+    type: text
+  - name: image
+    type: image
+    options:
+      media: images
+  - name: gallery
+    type: image
+    list: true
+    options:
+      media: images
+  - name: url
+    type: string
+    label: Optional project link
+  - *id001
+  - *id002
+- name: publications
+  label: Publications
+  type: file
+  path: content/publications.json
+  format: json
+  list: true
+  fields:
+  - name: title
+    type: string
+    required: true
+  - name: authors
+    type: text
+  - name: year
+    type: string
+  - name: venue
+    type: string
+    label: Journal / destination
+  - name: details
+    type: string
+  - name: category
+    type: select
+    options:
+      values:
+      - name: article
+        label: Research article
+      - name: review
+        label: Review
+      - name: submitted
+        label: Submitted manuscript
+      - name: in_preparation
+        label: In preparation
+  - name: doi
+    type: string
+  - name: url
+    type: string
+    label: Publication link (optional)
+  - *id001
+  - *id002
+- name: presentations
+  label: Talks and presentations
+  type: file
+  path: content/presentations.json
+  format: json
+  list: true
+  fields:
+  - name: title
+    type: string
+    required: true
+  - name: date_label
+    type: string
+    label: Date
+  - name: authors
+    type: text
+  - name: venue
+    type: text
+    label: Conference / place
+  - name: image
+    type: image
+    label: Optional conference photo
+    options:
+      media: images
+  - name: image_alt
+    type: string
+    label: Main photo description (accessibility)
+  - name: gallery
+    type: image
+    list: true
+    label: Additional conference photos
+    options:
+      media: images
+  - name: url
+    type: string
+  - *id001
+  - *id002
+- name: awards
+  label: Awards
+  type: file
+  path: content/awards.json
+  format: json
+  list: true
+  fields:
+  - name: title
+    type: string
+    required: true
+  - name: date_label
+    type: string
+    label: Date
+  - name: amount
+    type: string
+  - *id001
+  - *id002
+- name: teaching
+  label: Teaching
+  type: file
+  path: content/teaching.json
+  format: json
+  list: true
+  fields:
+  - name: title
+    type: string
+    required: true
+  - name: date_label
+    type: string
+    label: Date
+  - name: organization
+    type: string
+  - name: description
+    type: text
+  - name: category
+    type: select
+    options:
+      values:
+      - Course Instruction
+      - Teaching Assistant
+      - Teaching Development
+  - *id001
+  - *id002
+- name: education
+  label: Education
+  type: file
+  path: content/education.json
+  format: json
+  list: true
+  fields:
+  - name: title
+    type: string
+    required: true
+  - name: date_label
+    type: string
+    label: Date
+  - name: organization
+    type: string
+  - name: description
+    type: text
+  - *id001
+  - *id002
+- name: experience
+  label: CV — Academic appointments and research experience
+  type: file
+  path: content/experience.json
+  format: json
+  list: true
+  fields:
+  - name: title
+    type: string
+    required: true
+  - name: date_label
+    type: string
+    label: Date
+  - name: organization
+    type: string
+  - name: description
+    type: text
+  - *id001
+  - *id002
+- name: service
+  label: CV — Editorial roles and professional service
+  type: file
+  path: content/service.json
+  format: json
+  list: true
+  fields:
+  - name: title
+    type: string
+    required: true
+  - name: date_label
+    type: string
+    label: Date
+  - name: organization
+    type: string
+  - name: description
+    type: text
+  - *id001
+  - *id002
+- name: cv_intro
+  label: CV — Introduction and PDF upload
+  type: file
+  path: content/cv.json
+  format: json
+  operations:
+    delete: false
+    create: false
+  fields:
+  - name: intro
+    type: text
+    label: Text beneath Curriculum Vitae
+    description: The text entered here is shown beneath the CV title.
+  - name: uploaded_pdf
+    type: file
+    label: Upload my CV (PDF) — overrides automatic version
+    description: Optional. A PDF uploaded here is used by the Download CV button instead of the auto-generated PDF. Clear this field to return to automatic updates.
+    options:
+      media: documents
+      extensions: [pdf]
+      categories: [document]
+- name: funding
+  label: CV — Research funding
+  type: file
+  path: content/funding.json
+  format: json
+  list: true
+  operations:
+    delete: false
+  fields:
+  - name: title
+    type: string
+    label: Funding source or project
+    required: true
+  - name: date_label
+    type: string
+    label: Date or period
+  - name: organization
+    type: string
+    label: Funding agency
+  - name: amount
+    type: string
+    label: Amount (if public)
+  - name: description
+    type: text
+    label: Details
+  - *id001
+  - *id002
+- name: affiliations
+  label: CV — Professional affiliations
+  type: file
+  path: content/affiliations.json
+  format: json
+  list: true
+  fields:
+  - name: title
+    type: string
+    label: Credential or membership
+    required: true
+  - name: date_label
+    type: string
+    label: Date
+  - name: organization
+    type: string
+    label: Organization
+  - name: description
+    type: text
+    label: Details (optional)
+  - *id001
+  - *id002
+- name: skills
+  label: CV — Technical skills and languages
+  type: file
+  path: content/skills.json
+  format: json
+  list: true
+  fields:
+  - name: text
+    type: text
+    label: Skill or category
+    required: true
+  - *id001
+  - *id002
+
+- name: home_stats
+  label: Home — three statistics cards
+  type: file
+  path: content/home_stats.json
+  format: json
+  list: true
+  fields:
+  - name: number
+    type: string
+    label: Displayed number (edit manually)
+    required: true
+  - name: label
+    type: string
+    label: Card label
+    required: true
+  - name: url
+    type: string
+    label: Click destination (e.g. ./publications/)
+  - name: order
+    type: number
+    label: Display order (lower first)
+  - name: visible
+    type: boolean
+    label: Show this card
+    default: true
+- name: research_interests
+  label: Research — interest bubbles
+  type: file
+  path: content/research_interests.json
+  format: json
+  list: true
+  fields:
+  - name: text
+    type: string
+    label: Interest bubble text
+    required: true
+  - name: order
+    type: number
+    label: Display order (lower first)
+  - name: visible
+    type: boolean
+    label: Show this bubble
+    default: true
+- name: section_visibility
+  label: Section visibility (show / hide)
+  type: file
+  path: content/sections.json
+  format: json
+  operations:
+    create: false
+    delete: false
+  fields:
+  - name: show_home_stats
+    type: boolean
+    label: Home — publication / talks / awards cards
+    default: false
+  - name: show_research_interests
+    type: boolean
+    label: Research — interest bubbles
+    default: true
+  - name: show_teaching_courses
+    type: boolean
+    label: Teaching — courses and assistantships
+    default: true
+  - name: show_teaching_development
+    type: boolean
+    label: Teaching — development
+    default: true
+  - name: show_teaching_mentorship
+    type: boolean
+    label: Teaching — student mentorship
+    default: true
+  - name: show_cv_page
+    type: boolean
+    label: CV — show entire CV page and menu links
+    description: Disable to hide the whole online CV and its menu links. With GitHub Actions publishing enabled, the CV page and selected PDF are excluded from the deployed site. Records stay in Pages CMS.
+    default: true
+  - name: show_cv_pdf_download
+    type: boolean
+    label: CV — show downloadable PDF button
+    default: true
+  - name: show_cv_education
+    type: boolean
+    label: CV — education
+    default: true
+  - name: show_cv_appointments
+    type: boolean
+    label: CV — academic appointments
+    default: true
+  - name: show_cv_teaching
+    type: boolean
+    label: CV — teaching experience
+    default: true
+  - name: show_cv_service
+    type: boolean
+    label: CV — service
+    default: true
+  - name: show_cv_funding
+    type: boolean
+    label: CV — funding
+    default: true
+  - name: show_cv_awards
+    type: boolean
+    label: CV — awards
+    default: true
+  - name: show_cv_affiliations
+    type: boolean
+    label: CV — affiliations
+    default: true
+  - name: show_cv_skills
+    type: boolean
+    label: CV — skills
+    default: true
+  - name: show_cv_scholarly
+    type: boolean
+    label: CV — publications and presentations
+    default: true

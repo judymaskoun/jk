@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Scientific Editor",
+    "date_label": "Expected November 2027 (contract pending)",
+    "organization": "Elsevier, Journal of Hazardous Materials Advances",
+    "order": 1,
+    "visible": false
+  },
+  {
+    "title": "Peer Reviewer",
+    "date_label": "2026–Present",
+    "organization": "Processes, Applied Sciences, Water, Environment",
+    "order": 2,
+    "visible": true
+  },
+  {
+    "title": "Publishing Team Lead",
+    "date_label": "2026–Present",
+    "organization": "2027 IWA Young Water Professionals Canada Conference",
+    "order": 3,
+    "visible": true
+  },
+  {
+    "title": "Oral Presentation and Poster Judge",
+    "date_label": "Aug 2026",
+    "organization": "Faculty of Engineering Graduate Research Symposium",
+    "order": 4,
+    "visible": true
+  },
+  {
+    "title": "Volunteer",
+    "date_label": "Jul 2026",
+    "organization": "5th International Conference on Disinfection & Disinfection Byproducts",
+    "order": 5,
+    "visible": true
+  }
+]

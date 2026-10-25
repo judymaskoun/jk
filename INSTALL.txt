@@ -1,0 +1,23 @@
+# Unified Teaching with navigation and Pages CMS section visibility
+
+- Restores rounded balloons at the top of Teaching: Teaching, Development, Mentorship, plus Show all.
+- All course-instructor and teaching-assistant records remain together under Teaching.
+- Adds a new Pages CMS entry: **Section visibility (show / hide)**, which lets you hide any of the three Teaching groups or any CV section.
+- Each Teaching record still has an individual `Visible` toggle in Pages CMS.
+- Turn off a section and save in Pages CMS; its content and navigation balloon disappear on the published site, without deleting records.
+- Every section initially displays normally.
+
+## Safest installation
+Upload the files in the safe update ZIP to the same paths in your GitHub repository.
+It does not replace `content/teaching.json`, your CV records, your images, or `assets/style.css`.
+**Note:** The package replaces `.pages.yml` to register the new checkboxes; if you customized that file after the prior version, merge the new `section_visibility` block instead.
+
+## Files in the safe update
+- `.pages.yml`
+- `content/sections.json` (new)
+- `assets/section-visibility.css` (new)
+- `assets/section-visibility.js` (new)
+- `cv/index.html` (adds only stylesheet/script references)
+- `teaching/index.html` (restores Teaching section balloons and loads toggle assets)
+
+In Pages CMS, go to **Section visibility (show / hide)** and switch a section off. Save, then reload the published site after GitHub Pages deploys. If you prefer to hide a single course only, edit it in **Teaching** and disable its existing `Visible` toggle.

@@ -1,0 +1,23 @@
+[
+  {
+    "number": "7",
+    "label": "Publications",
+    "url": "./publications/",
+    "order": 1,
+    "visible": true
+  },
+  {
+    "number": "7",
+    "label": "Talks & Presentations",
+    "url": "./presentations/",
+    "order": 2,
+    "visible": true
+  },
+  {
+    "number": "12",
+    "label": "Awards",
+    "url": "./cv/#cv-awards",
+    "order": 3,
+    "visible": true
+  }
+]

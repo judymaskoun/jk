@@ -1,0 +1,55 @@
+[
+  {
+    "title": "Appointed as a Scientific Editor ",
+    "date_label": "November 2026",
+    "description": "Elsevier, Journal of Hazardous Materials Advances ",
+    "order": 1,
+    "visible": true
+  },
+  {
+    "title": "Assistant Lecturer",
+    "date_label": "January 2027",
+    "description": "University of Alberta, CIV E 728 (Water and Wastewater Treatment)",
+    "url": "https://apps.ualberta.ca/catalogue/course/civ_e/728",
+    "order": 2,
+    "visible": false
+  },
+  {
+    "title": "Received the Best Oral Presentation Award",
+    "date_label": "July 2026",
+    "description": "International Water Association (IWA), 5th International Conference on Disinfection & Disinfection Byproducts in Shanghai.",
+    "url": "https://www.iwa-network.org/events/5th-iwa-international-conference-on-disinfection-and-disinfection-by-products",
+    "order": 3,
+    "visible": true
+  },
+  {
+    "title": "Conference Presentation",
+    "date_label": "July 2026",
+    "description": "\"Tuning Softwood Biochar Pyrolysis Temperature to Enhance Solar-driven Bi2WO6 Photocatalysis for River Water Treatment.\" IWA 5th International Conference on Disinfection & Disinfection Byproducts in Shanghai.",
+    "order": 4,
+    "visible": false
+  },
+  {
+    "title": "Publication in Journal of Hazardous Materials",
+    "date_label": "2026",
+    "description": "\"Tuning pyrolysis temperature of wheat straw biochar supports for enhanced Bi2WO6 photocatalytic degradation of stormwater contaminants in real water matrices\"",
+    "url": "https://doi.org/10.1016/j.jhazmat.2026.142241",
+    "order": 5,
+    "visible": false
+  },
+  {
+    "title": "Appointment as a Postdoctoral Fellow ",
+    "date_label": "December 2025",
+    "description": "Postdoctoral Research Fellow (University of Alberta). \nProject: Biochar-Enhanced Constructed Wetlands for Oil Sands Process Water Treatment.  Supported by Canada First Research Excellence Fund through the Future Energy Systems Program ",
+    "url": "https://www.futureenergysystems.ca/research/researcher-directory/2146",
+    "order": 6,
+    "visible": false
+  },
+  {
+    "title": "PhD Completion ",
+    "date_label": "November 2025",
+    "description": "University of Alberta",
+    "url": "https://www.ualberta.ca/en/media-library/convocation/2025/2025-fall-convocation-long-form-program.pdf",
+    "visible": false
+  }
+]

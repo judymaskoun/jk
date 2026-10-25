@@ -1,0 +1,20 @@
+/* Unified teaching page: course cards (instructor and teaching assistant) together. */
+body[data-page="teaching"] .unified-teaching-section > .container{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;align-items:stretch;}
+body[data-page="teaching"] .unified-teaching-section > .container > .section-heading{grid-column:1/-1;margin-bottom:10px;}
+body[data-page="teaching"] .unified-teaching-section > .container > .timeline-entry{min-width:0;}
+/* Labels identify the course level, never separate teaching-assistant experience. */
+body[data-page="teaching"] #teaching-courses .timeline-entry[data-course-level="graduate"]::before{content:"GRADUATE";}
+body[data-page="teaching"] #teaching-courses .timeline-entry[data-course-level="undergraduate"]::before{content:"UNDERGRADUATE";}
+body[data-page="teaching"] #teaching-courses .timeline-entry[data-course-level="upcoming"]::before{content:"UPCOMING";}
+body[data-page="teaching"] #teaching-courses .timeline-entry[data-course-level="course"]::before{content:"TEACHING";}
+body[data-page="teaching"] #teaching-courses .timeline-entry[data-teaching-category="Teaching Development"]::before{content:"PROFESSIONAL DEVELOPMENT";}
+body[data-page="teaching"] .teaching-extra,body[data-page="teaching"] .teaching-mentorship{grid-column:1/-1;min-width:0;margin-top:20px;}
+body[data-page="teaching"] .teaching-extra h3,body[data-page="teaching"] .teaching-mentorship h3{font-size:clamp(22px,2vw,29px);color:var(--ink);margin:0 0 18px;}
+body[data-page="teaching"] .teaching-extra-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;align-items:stretch;}
+body[data-page="teaching"] .teaching-extra-grid .timeline-entry{min-width:0;}
+body[data-page="teaching"] .teaching-mentorship .plain-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;list-style:none;padding:0;margin:0;}
+body[data-page="teaching"] .teaching-mentorship .plain-list li{padding:26px;border:1px solid var(--line);border-radius:20px;background:var(--paper);color:var(--muted);line-height:1.75;}
+body[data-page="teaching"] .teaching-mentorship .plain-list li::before{content:"MENTORSHIP";display:block;margin-bottom:12px;color:var(--accent-dark);font-size:12px;font-weight:800;letter-spacing:1px;}
+html[data-theme="dark"] body[data-page="teaching"] .teaching-mentorship .plain-list li{background:#181e35;border-color:#343d58;}
+@media(max-width:980px){body[data-page="teaching"] .teaching-extra-grid{grid-template-columns:repeat(2,minmax(0,1fr));}}
+@media(max-width:620px){body[data-page="teaching"] .teaching-extra-grid,body[data-page="teaching"] .teaching-mentorship .plain-list{grid-template-columns:minmax(0,1fr);gap:16px;}}

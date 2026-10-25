@@ -1,0 +1,82 @@
+/* ===== CV & Teaching | rounded navigation centered ON the page divider =====
+   Self-contained override. No changes to the existing stylesheet required. */
+body[data-page="cv"] .section-balloon-bar,
+body[data-page="teaching"] .section-balloon-bar{
+  position:relative; height:0; z-index:12; overflow:visible;
+}
+body[data-page="cv"] .section-balloon-bar nav.section-pill-nav,
+body[data-page="teaching"] .section-balloon-bar nav.section-pill-nav{
+  position:absolute!important;top:0!important;left:50%!important;right:auto!important;
+  transform:translate(-50%,-50%)!important;
+  box-sizing:border-box;width:calc(100% - 38px)!important;max-width:1320px!important;
+  margin:0!important;padding:4px 8px!important;min-height:54px;
+  display:flex!important;flex-direction:row!important;flex-wrap:nowrap!important;align-items:center!important;
+  justify-content:safe center!important;gap:9px!important;
+  overflow-x:auto;overflow-y:hidden;scrollbar-width:thin;
+  -webkit-overflow-scrolling:touch;scroll-behavior:smooth;
+  background:transparent!important;border:none!important;box-shadow:none!important;
+}
+body[data-page="cv"] .section-balloon-bar nav.section-pill-nav > a.section-pill,
+body[data-page="teaching"] .section-balloon-bar nav.section-pill-nav > a.section-pill{
+  box-sizing:border-box;flex:0 0 auto!important;
+  display:inline-flex!important;align-items:center!important;justify-content:center!important;
+  width:auto!important;height:46px!important;min-height:46px!important;
+  margin:0!important;padding:9px 17px!important;
+  white-space:nowrap!important;border-radius:999px!important;
+  border:1px solid var(--line)!important;
+  background:var(--paper)!important;color:var(--muted)!important;
+  font-size:14px!important;font-weight:750!important;line-height:1.25!important;
+  text-decoration:none!important;transform:none!important;
+  box-shadow:0 3px 12px rgba(12,23,46,.16)!important;
+  transition:border-color .18s ease,background .18s ease,color .18s ease,box-shadow .18s ease;
+}
+body[data-page="cv"] .section-balloon-bar nav.section-pill-nav > a.section-pill.selected,
+body[data-page="teaching"] .section-balloon-bar nav.section-pill-nav > a.section-pill.selected{
+  background:#184b39!important;color:#79ecc0!important;
+  border-color:#5bd8a0!important;box-shadow:0 3px 15px rgba(33,176,119,.18)!important;
+}
+body[data-page="cv"] .section-balloon-bar nav.section-pill-nav > a.section-pill:hover,
+body[data-page="teaching"] .section-balloon-bar nav.section-pill-nav > a.section-pill:hover{
+  border-color:#54d399!important;color:var(--accent-dark)!important;
+  box-shadow:0 6px 18px rgba(20,142,96,.22)!important;
+}
+body[data-page="cv"] .section-balloon-bar nav.section-pill-nav > a.section-pill:focus-visible,
+body[data-page="teaching"] .section-balloon-bar nav.section-pill-nav > a.section-pill:focus-visible{
+  outline:3px solid #5bd8a0!important;outline-offset:2px;
+}
+html[data-theme="dark"] body[data-page="cv"] .section-balloon-bar nav.section-pill-nav > a.section-pill,
+html[data-theme="dark"] body[data-page="teaching"] .section-balloon-bar nav.section-pill-nav > a.section-pill{
+  background:#1b263d!important;color:#c4cde1!important;border-color:#45516b!important;
+}
+html[data-theme="dark"] body[data-page="cv"] .section-balloon-bar nav.section-pill-nav > a.section-pill.selected,
+html[data-theme="dark"] body[data-page="teaching"] .section-balloon-bar nav.section-pill-nav > a.section-pill.selected{
+  background:#184b39!important;color:#79ecc0!important;border-color:#5bd8a0!important;
+}
+/* Leave breathing room AFTER the divider balloons. Keep all profile links intact. */
+body[data-page="cv"] .section-balloon-bar + .cv-profile-wrap{
+  padding-top:69px!important;padding-bottom:9px!important;
+}
+body[data-page="cv"] .section-balloon-bar + .container.narrow{padding-top:56px!important;}
+body[data-page="teaching"] .section-balloon-bar + section.section{padding-top:98px!important;}
+/* Panel visibility must work even after moving navigation out of the old wrapper. */
+body[data-page="cv"] main .cv-section[hidden],
+body[data-page="teaching"] main > section.section[hidden]{display:none!important;}
+@media(max-width:1020px){
+  body[data-page="cv"] .section-balloon-bar nav.section-pill-nav,
+  body[data-page="teaching"] .section-balloon-bar nav.section-pill-nav{
+    justify-content:flex-start!important;padding-inline:9px!important;
+  }
+}
+@media(max-width:600px){
+  body[data-page="cv"] .section-balloon-bar nav.section-pill-nav,
+  body[data-page="teaching"] .section-balloon-bar nav.section-pill-nav{
+    width:calc(100% - 18px)!important;gap:7px!important;min-height:50px;
+  }
+  body[data-page="cv"] .section-balloon-bar nav.section-pill-nav > a.section-pill,
+  body[data-page="teaching"] .section-balloon-bar nav.section-pill-nav > a.section-pill{
+    min-height:42px!important;height:42px!important;padding:8px 13px!important;font-size:12px!important;
+  }
+  body[data-page="cv"] .section-balloon-bar + .cv-profile-wrap{padding-top:63px!important;}
+  body[data-page="teaching"] .section-balloon-bar + section.section{padding-top:87px!important;}
+}
+@media print{body[data-page="cv"] .section-balloon-bar,body[data-page="teaching"] .section-balloon-bar{display:none!important;}}

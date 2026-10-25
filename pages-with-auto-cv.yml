@@ -1,0 +1,53 @@
+name: Publish website and refresh CV PDF
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Pages CMS website
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install PDF generator and system Unicode fonts
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y fonts-dejavu-core fonts-liberation2
+          python -m pip install reportlab==4.4.9
+      - name: Generate downloadable CV from Pages CMS JSON
+        run: python scripts/generate_cv.py
+      - name: Apply whole-CV visibility and stage the website
+        run: python scripts/prepare_deploy.py
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload the staged site, including selected PDF files
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    permissions:
+      pages: write
+      id-token: write
+    steps:
+      - name: Publish website
+        id: deployment
+        uses: actions/deploy-pages@v4

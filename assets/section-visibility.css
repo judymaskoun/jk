@@ -1,0 +1,25 @@
+/* Restored teaching navigation: original rounded pills centered directly on divider. */
+body[data-page="teaching"] .section-balloon-bar{position:relative;height:0;z-index:12;overflow:visible}
+body[data-page="teaching"] .section-balloon-bar nav.section-pill-nav{scroll-margin-top:85px}
+body[data-page="teaching"] .section-balloon-bar nav .section-pill[hidden]{display:none!important}
+body[data-page="teaching"] #teaching-courses > .container > .section-heading[hidden],
+body[data-page="teaching"] #teaching-courses > .container > .timeline-entry[hidden]{display:none!important}
+/* A choice in Pages CMS overrides the selected tab as well as the static fallback. */
+body[data-page="teaching"] #teaching-courses[data-show-courses="false"] > .container > .section-heading,
+body[data-page="teaching"] #teaching-courses[data-show-courses="false"] > .container > .timeline-entry,
+body[data-page="teaching"] #teaching-courses[data-visible-panel="teaching-development"] > .container > .section-heading,
+body[data-page="teaching"] #teaching-courses[data-visible-panel="teaching-development"] > .container > .timeline-entry,
+body[data-page="teaching"] #teaching-courses[data-visible-panel="teaching-mentorship"] > .container > .section-heading,
+body[data-page="teaching"] #teaching-courses[data-visible-panel="teaching-mentorship"] > .container > .timeline-entry{display:none!important}
+body[data-page="teaching"] #teaching-courses[data-show-development="false"] .teaching-extra,
+body[data-page="teaching"] #teaching-courses[data-visible-panel="teaching-courses"] .teaching-extra,
+body[data-page="teaching"] #teaching-courses[data-visible-panel="teaching-mentorship"] .teaching-extra{display:none!important}
+body[data-page="teaching"] #teaching-courses[data-show-mentorship="false"] .teaching-mentorship,
+body[data-page="teaching"] #teaching-courses[data-visible-panel="teaching-courses"] .teaching-mentorship,
+body[data-page="teaching"] #teaching-courses[data-visible-panel="teaching-development"] .teaching-mentorship{display:none!important}
+body[data-page="cv"] .cms-section-disabled{display:none!important}
+body[data-page="cv"] .section-pill-nav[hidden]{display:none!important}
+@media print{body[data-page="teaching"] .section-balloon-bar{display:none!important}}
+/* Higher specificity than the existing balloon display:inline-flex!important rule. */
+body[data-page="teaching"] .section-balloon-bar nav.section-pill-nav > a.section-pill[hidden]{display:none!important;}
+body[data-page="teaching"] .section-balloon-bar nav.section-pill-nav[hidden]{display:none!important;}

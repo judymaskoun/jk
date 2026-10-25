@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Engineer-in-Training (E.I.T.)",
+    "date_label": "May 2026",
+    "organization": "Association of Professional Engineers and Geoscientists of Alberta",
+    "description": "",
+    "order": 1,
+    "visible": true
+  },
+  {
+    "title": "Young Water Professional",
+    "date_label": "May 2025",
+    "organization": "International Water Association Canada",
+    "description": "",
+    "order": 2,
+    "visible": true
+  }
+]

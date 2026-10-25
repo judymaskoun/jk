@@ -1,0 +1,15 @@
+/* Final page refinements. Keep after the existing stylesheets. */
+/* Consistent WoS mark with a genuine transparent background, not a pseudo-element.
+   Works in light and dark themes and when content.js refreshes profile links. */
+.profile-icon.profile-wos .icon-symbol::after{display:none!important;content:none!important}
+.profile-icon.profile-wos .icon-symbol img{
+  display:block!important;width:32px!important;height:32px!important;max-width:none!important;
+  object-fit:contain!important;margin:0!important;padding:0!important;
+  background:transparent!important;border:0!important;box-shadow:none!important;
+}
+.profile-icon.profile-wos{background:#fff!important;color:#10131a!important}
+html[data-theme="dark"] .profile-icon.profile-wos{background:#fff!important;color:#10131a!important}
+/* Hidden headings retain their DOM anchors for the Pages CMS content renderer. */
+.section-heading[hidden]{display:none!important}
+/* Section headings edited in Pages CMS have the same typography as original headings. */
+body[data-page="contact"] .section-heading .kicker{margin-bottom:0}

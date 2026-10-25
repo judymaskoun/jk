@@ -1,0 +1,11 @@
+/* CV: concise one-line section labels, without a duplicated large subtitle.
+   The hidden h2 text is deliberately retained in the HTML so the existing
+   Pages CMS content renderer and balloon navigation continue to work. */
+body[data-page="cv"] .cv-section > .section-heading h2 {display:none!important;}
+body[data-page="cv"] .cv-section > .section-heading {margin-bottom:20px;}
+body[data-page="cv"] .cv-section > .section-heading .kicker {
+  font-size:16px;line-height:1.45;letter-spacing:2.5px;font-weight:800;
+  margin:0;display:block;color:var(--accent-dark);
+}
+html[data-theme="dark"] body[data-page="cv"] .cv-section > .section-heading .kicker {color:#65dca7;}
+@media(max-width:600px){body[data-page="cv"] .cv-section > .section-heading .kicker{font-size:14px;letter-spacing:1.9px;}}

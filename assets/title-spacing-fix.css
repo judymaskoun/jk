@@ -1,0 +1,17 @@
+/* Compact the unused space after removing earlier page descriptions and headings. */
+body[data-page="publications"] main > .page-hero{padding-bottom:38px;}
+body[data-page="publications"] main > .pub-profile-wrap{padding-bottom:5px!important;}
+body[data-page="publications"] main > section.section:first-of-type{padding-top:30px;}
+body[data-page="publications"] .publication-tools{margin-top:0;}
+/* Keep live search and category filters, but do not show the results-count sentence. */
+body[data-page="publications"] #pub-count{display:none!important;}
+body[data-page="publications"] .publication-tools + .pub-item{margin-top:12px;}
+
+body[data-page="presentations"] main > .page-hero{padding-bottom:32px;}
+body[data-page="presentations"] main > section.section:first-of-type{padding-top:35px;}
+
+@media(max-width:780px){
+  body[data-page="publications"] main > section.section:first-of-type,
+  body[data-page="presentations"] main > section.section:first-of-type{padding-top:26px;}
+  body[data-page="publications"] main > .pub-profile-wrap{padding-bottom:3px!important;}
+}

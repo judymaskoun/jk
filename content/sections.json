@@ -1,0 +1,19 @@
+{
+  "show_teaching_courses": true,
+  "show_teaching_development": true,
+  "show_teaching_mentorship": true,
+  "show_cv_education": true,
+  "show_cv_appointments": true,
+  "show_cv_teaching": true,
+  "show_cv_service": true,
+  "show_cv_funding": true,
+  "show_cv_awards": true,
+  "show_cv_affiliations": true,
+  "show_cv_skills": true,
+  "show_cv_scholarly": true,
+  "show_home_stats": false,
+  "show_research_interests": true,
+  "show_cv_pdf_download": true,
+  "show_cv_page": true,
+  "show_publications_in_progress": true
+}

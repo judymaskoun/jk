@@ -1,0 +1,27 @@
+[
+  {
+    "text": "Modelling: Aspen Plus, Aspen HYSYS, BioWin, SolidWorks, WaterGEMS",
+    "order": 1,
+    "visible": true
+  },
+  {
+    "text": "Data analysis: MATLAB, R, Mathcad, Origin",
+    "order": 2,
+    "visible": true
+  },
+  {
+    "text": "Analytical methods: HPLC, UV–Vis, TOC, COD, ion chromatography, water-quality analyses",
+    "order": 3,
+    "visible": true
+  },
+  {
+    "text": "Characterization: XRD, XPS, FTIR, SEM, TEM, EIS, EPR, diffuse reflectance",
+    "order": 4,
+    "visible": true
+  },
+  {
+    "text": "Languages: English, Arabic, Turkish",
+    "order": 5,
+    "visible": true
+  }
+]

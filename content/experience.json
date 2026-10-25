@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Postdoctoral Research Fellow, Water and Wastewater Treatment",
+    "date_label": "Nov 2025–Present",
+    "organization": "University of Alberta · Edmonton, AB",
+    "description": "Research forestry-waste biochar for oil sands process water in pilot-scale columns and constructed wetlands; develop solar/UV-driven photocatalytic reactors and biochar/hydrochar adsorbents. Co-supervise three PhD students and collaborate with industry partners.",
+    "order": 1,
+    "visible": true
+  },
+  {
+    "title": "Graduate Research Assistant, Water and Wastewater Treatment",
+    "date_label": "Sep 2021–Sep 2025",
+    "organization": "University of Alberta · Edmonton, AB",
+    "description": "Designed and characterized biochar-supported photocatalysts, assessed toxicity and leaching in real water matrices, developed HPLC methods, and achieved a 74-fold improvement in photocatalytic activity.",
+    "order": 2,
+    "visible": true
+  },
+  {
+    "title": "Graduate Research Assistant, Green Hydrogen Production",
+    "date_label": "Sep 2020–Aug 2021",
+    "organization": "King Abdullah University of Science and Technology · Jeddah, Saudi Arabia",
+    "description": "Evaluated solar- and wind-powered PEM and alkaline electrolysis using mass and energy balances and techno-economic assessment.",
+    "order": 3,
+    "visible": true
+  },
+  {
+    "title": "Graduate Research Assistant, Microfluidics",
+    "date_label": "Sep 2018–Aug 2020",
+    "organization": "Bilkent University · Ankara, Turkey",
+    "description": "Designed and fabricated microfluidic lasers and waveguides using colloidal semiconductor quantum wells.",
+    "order": 4,
+    "visible": true
+  },
+  {
+    "title": "Undergraduate Research Assistant, Chemical Engineering",
+    "date_label": "Sep 2017–Aug 2018",
+    "organization": "Middle East Technical University · Ankara, Turkey",
+    "description": "Fabricated cellulose membranes for organic solvent nanofiltration and industrial wastewater applications.",
+    "order": 5,
+    "visible": true
+  }
+]
