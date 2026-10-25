@@ -2,41 +2,41 @@
   {
     "text": "Water & Wastewater Treatment",
     "order": 1,
-    "visible": true
+    "visible": false
   },
   {
     "text": "Solar Photocatalysis",
     "order": 2,
-    "visible": true
+    "visible": false
   },
   {
     "text": "Biochar-Supported Materials",
     "order": 3,
-    "visible": true
+    "visible": false
   },
   {
     "text": "Emerging Contaminants",
     "order": 4,
-    "visible": true
+    "visible": false
   },
   {
     "text": "Oil Sands Process Water",
     "order": 5,
-    "visible": true
+    "visible": false
   },
   {
     "text": "Constructed Wetlands",
     "order": 6,
-    "visible": true
+    "visible": false
   },
   {
     "text": "Adsorption",
     "order": 7,
-    "visible": true
+    "visible": false
   },
   {
     "text": "Materials Characterization",
     "order": 8,
-    "visible": true
+    "visible": false
   }
 ]
