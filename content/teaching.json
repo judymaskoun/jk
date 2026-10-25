@@ -1,15 +1,15 @@
 [
   {
-    "title": "Assistant Lecturer — Faculty of Engineering",
+    "title": "CIV E 728 - Water and Wastewater Treatment",
     "date_label": "Starting Jan 2027",
     "organization": "University of Alberta",
-    "description": "Upcoming appointment beginning January 2027.",
+    "description": "Theory, design and application of new or alternative processes for treatment of water and wastewater, including ozone, chlorine dioxide, ultraviolet radiation, advanced oxidation, membrane and others.",
     "category": "Course Instruction",
     "order": 0,
     "visible": true
   },
   {
-    "title": "Course Instructor — CIV E 429, Environmental Engineering Design",
+    "title": "CIV E 429 - Environmental Engineering Design",
     "date_label": "Jan–Apr 2025",
     "organization": "University of Alberta",
     "description": "Senior undergraduate course in drinking water and wastewater treatment facility design for indirect potable reuse; included field trips, design projects, technical reports, and presentations.",
