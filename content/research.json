@@ -13,7 +13,7 @@
     "category": "Current Projects",
     "tag": "Photocatalysis",
     "summary": "Development and optimization of solar and UV-driven photocatalyst materials for water and wastewater treatment.",
-    "order": 2,
+    "order": 3,
     "visible": true
   },
   {
@@ -21,7 +21,7 @@
     "category": "Current Projects",
     "tag": "Process Design · Reactor Design",
     "summary": "Immobilizing photocatalysts on natural support materials to overcome separation challenges of conventional powdered materials.\nDesign of a flow-through UV reactor for the photocatalytic treatment of wastewater.",
-    "order": 3,
+    "order": 2,
     "visible": true
   },
   {
