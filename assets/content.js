@@ -81,7 +81,6 @@
       set('.hero-copy .eyebrow', site.role);
       set('.hero .hero-title', site.subtitle);
       const alternate = document.querySelector('.alternate-name');
-      if (alternate) alternate.textContent = site.alternate_name ? `Also known as ${site.alternate_name}` : '';
       set('.hero .lead', site.intro);
       set('.about-academic .section-heading h2', site.about_heading);
       const cols = document.querySelectorAll('.about-columns .about-column p');
