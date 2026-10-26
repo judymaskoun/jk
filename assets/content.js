@@ -83,7 +83,7 @@
       const alternate = document.querySelector('.alternate-name strong');
 if (alternate && typeof site.alternate_name === 'string') {
   alternate.textContent = site.alternate_name
-    ? `Other name: ${site.alternate_name}`
+    ? `Alternative name: ${site.alternate_name}`
     : '';
 }
       set('.hero .lead', site.intro);
