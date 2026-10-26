@@ -80,7 +80,12 @@
     if (page === 'home') {
       set('.hero-copy .eyebrow', site.role);
       set('.hero .hero-title', site.subtitle);
-      const alternate = document.querySelector('.alternate-name');
+      const alternate = document.querySelector('.alternate-name strong');
+if (alternate && typeof site.alternate_name === 'string') {
+  alternate.textContent = site.alternate_name
+    ? `Other name: ${site.alternate_name}`
+    : '';
+}
       set('.hero .lead', site.intro);
       set('.about-academic .section-heading h2', site.about_heading);
       const cols = document.querySelectorAll('.about-columns .about-column p');
